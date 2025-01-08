@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : qarma128_0_M82_11
+Version: L-2016.03-SP1
+Date   : Sat Nov 23 02:52:43 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /mnt/hgfs/VMShared/TEST1/qarma128-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                          643
+Number of nets:                         33382
+Number of cells:                        32634
+Number of combinational cells:          31993
+Number of sequential cells:               641
+Number of macros/black boxes:               0
+Number of buf/inv:                       5190
+Number of references:                      39
+
+Combinational area:              38763.381391
+Buf/Inv area:                     2875.194018
+Noncombinational area:            3453.212115
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 42216.593507
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+qarma128_0_M82_11                 42216.5935    100.0  38763.3814  3453.2121  0.0000  qarma128_0_M82_11
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  38763.3814  3453.2121  0.0000
+
+1

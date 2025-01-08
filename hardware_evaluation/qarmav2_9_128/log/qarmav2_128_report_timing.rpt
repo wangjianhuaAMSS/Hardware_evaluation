@@ -1,0 +1,145 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+Design : qarmav2_128
+Version: L-2016.03-SP1
+Date   : Thu Nov 21 18:23:09 2024
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+Uclk/C_reg[28]/D (DFFR_X2)          4.51 r            0.98        -3.54
+Uclk/C_reg[9]/D (DFFR_X1)           4.51 r            0.97        -3.54
+Uclk/C_reg[71]/D (DFFR_X1)          4.51 f            0.98        -3.54
+Uclk/C_reg[98]/D (DFFR_X1)          4.51 r            0.98        -3.54
+Uclk/C_reg[122]/D (DFFR_X1)         4.51 r            0.97        -3.54
+Uclk/C_reg[11]/D (DFFR_X1)          4.51 r            0.98        -3.54
+Uclk/C_reg[64]/D (DFFR_X1)          4.51 r            0.97        -3.54
+Uclk/C_reg[112]/D (DFFR_X1)         4.51 f            0.98        -3.54
+Uclk/C_reg[29]/D (DFFR_X2)          4.51 r            0.97        -3.54
+Uclk/C_reg[18]/D (DFFR_X1)          4.51 r            0.97        -3.54
+Uclk/C_reg[92]/D (DFFR_X1)          4.51 r            0.97        -3.54
+Uclk/C_reg[56]/D (DFFR_X1)          4.51 f            0.98        -3.54
+Uclk/C_reg[94]/D (DFFR_X1)          4.51 r            0.97        -3.54
+Uclk/C_reg[114]/D (DFFR_X1)         4.51 f            0.98        -3.53
+Uclk/C_reg[30]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[102]/D (DFFR_X1)         4.51 r            0.97        -3.53
+Uclk/C_reg[96]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[55]/D (DFFR_X1)          4.51 r            0.97        -3.53
+Uclk/C_reg[8]/D (DFFR_X1)           4.51 f            0.98        -3.53
+Uclk/C_reg[31]/D (DFFR_X1)          4.51 r            0.97        -3.53
+Uclk/C_reg[66]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[0]/D (DFFR_X1)           4.51 r            0.97        -3.53
+Uclk/C_reg[19]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[51]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[73]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[35]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[53]/D (DFFR_X1)          4.51 r            0.97        -3.53
+Uclk/C_reg[120]/D (DFFR_X1)         4.51 r            0.97        -3.53
+Uclk/C_reg[97]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[50]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[24]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[103]/D (DFFR_X1)         4.51 f            0.98        -3.53
+Uclk/C_reg[25]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[10]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[75]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[79]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[95]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[90]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[70]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[38]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[72]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[108]/D (DFFR_X1)         4.51 r            0.97        -3.53
+Uclk/C_reg[36]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[26]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[20]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[80]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[34]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[78]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[74]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[58]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[63]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[48]/D (DFFR_X1)          4.51 r            0.97        -3.53
+Uclk/C_reg[91]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[33]/D (DFFR_X1)          4.51 r            0.98        -3.53
+Uclk/C_reg[93]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[99]/D (DFFR_X1)          4.50 r            0.98        -3.53
+Uclk/C_reg[111]/D (DFFR_X1)         4.51 f            0.98        -3.53
+Uclk/C_reg[76]/D (DFFR_X1)          4.51 f            0.98        -3.53
+Uclk/C_reg[2]/D (DFFR_X1)           4.50 r            0.98        -3.53
+Uclk/C_reg[5]/D (DFFR_X1)           4.50 r            0.98        -3.53
+Uclk/C_reg[32]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[3]/D (DFFR_X1)           4.51 f            0.98        -3.53
+Uclk/C_reg[116]/D (DFFR_X1)         4.50 f            0.98        -3.53
+Uclk/C_reg[68]/D (DFFR_X1)          4.50 r            0.98        -3.53
+Uclk/C_reg[86]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[127]/D (DFFR_X1)         4.50 r            0.98        -3.53
+Uclk/C_reg[69]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[21]/D (DFFR_X1)          4.50 r            0.98        -3.53
+Uclk/C_reg[82]/D (DFFR_X1)          4.50 f            0.98        -3.53
+Uclk/C_reg[101]/D (DFFR_X1)         4.50 r            0.97        -3.53
+Uclk/C_reg[22]/D (DFFR_X1)          4.50 f            0.98        -3.53
+Uclk/C_reg[42]/D (DFFR_X1)          4.50 r            0.98        -3.53
+Uclk/C_reg[88]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[109]/D (DFFR_X1)         4.50 r            0.98        -3.53
+Uclk/C_reg[6]/D (DFFR_X1)           4.50 r            0.97        -3.53
+Uclk/C_reg[81]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[61]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[118]/D (DFFR_X1)         4.50 f            0.98        -3.53
+Uclk/C_reg[52]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[1]/D (DFFR_X1)           4.50 r            0.98        -3.53
+Uclk/C_reg[115]/D (DFFR_X1)         4.50 f            0.98        -3.53
+Uclk/C_reg[4]/D (DFFR_X1)           4.50 r            0.97        -3.53
+Uclk/C_reg[54]/D (DFFR_X1)          4.50 r            0.98        -3.53
+Uclk/C_reg[126]/D (DFFR_X1)         4.50 f            0.98        -3.53
+Uclk/C_reg[84]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[62]/D (DFFR_X1)          4.50 r            0.97        -3.53
+Uclk/C_reg[110]/D (DFFR_X1)         4.50 r            0.98        -3.53
+Uclk/C_reg[47]/D (DFFR_X1)          4.50 f            0.98        -3.53
+Uclk/C_reg[67]/D (DFFR_X1)          4.50 f            0.98        -3.53
+Uclk/C_reg[16]/D (DFFR_X1)          4.50 r            0.97        -3.52
+Uclk/C_reg[65]/D (DFFR_X1)          4.50 r            0.97        -3.52
+Uclk/C_reg[119]/D (DFFR_X1)         4.50 f            0.98        -3.52
+Uclk/C_reg[57]/D (DFFR_X1)          4.50 f            0.98        -3.52
+Uclk/C_reg[125]/D (DFFR_X1)         4.50 r            0.97        -3.52
+Uclk/C_reg[100]/D (DFFR_X1)         4.50 r            0.97        -3.52
+Uclk/C_reg[37]/D (DFFR_X1)          4.50 r            0.97        -3.52
+Uclk/C_reg[104]/D (DFFR_X1)         4.50 r            0.97        -3.52
+Uclk/C_reg[46]/D (DFFR_X1)          4.50 f            0.98        -3.52
+Uclk/C_reg[124]/D (DFFR_X1)         4.50 f            0.98        -3.52
+Uclk/C_reg[60]/D (DFFR_X1)          4.50 r            0.98        -3.52
+Uclk/C_reg[121]/D (DFFR_X1)         4.50 r            0.98        -3.52
+Uclk/C_reg[89]/D (DFFR_X1)          4.50 f            0.98        -3.52
+Uclk/C_reg[113]/D (DFFR_X1)         4.50 r            0.98        -3.52
+Uclk/C_reg[59]/D (DFFR_X1)          4.50 r            0.97        -3.52
+Uclk/C_reg[44]/D (DFFR_X1)          4.50 f            0.98        -3.52
+Uclk/C_reg[45]/D (DFFR_X1)          4.50 r            0.97        -3.52
+Uclk/C_reg[15]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[106]/D (DFFR_X1)         4.49 r            0.97        -3.52
+Uclk/C_reg[12]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[39]/D (DFFR_X1)          4.49 r            0.98        -3.52
+Uclk/C_reg[77]/D (DFFR_X1)          4.49 r            0.98        -3.52
+Uclk/C_reg[41]/D (DFFR_X1)          4.49 r            0.98        -3.52
+Uclk/C_reg[123]/D (DFFR_X1)         4.49 r            0.97        -3.52
+Uclk/C_reg[23]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[14]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[7]/D (DFFR_X1)           4.49 f            0.98        -3.52
+Uclk/C_reg[43]/D (DFFR_X1)          4.49 f            0.98        -3.52
+Uclk/C_reg[13]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[87]/D (DFFR_X1)          4.49 f            0.98        -3.52
+Uclk/C_reg[117]/D (DFFR_X1)         4.49 r            0.97        -3.52
+Uclk/C_reg[40]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[85]/D (DFFR_X1)          4.49 r            0.97        -3.52
+Uclk/C_reg[27]/D (DFFR_X1)          4.49 f            0.98        -3.52
+Uclk/C_reg[49]/D (DFFR_X1)          4.49 r            0.97        -3.51
+Uclk/C_reg[17]/D (DFFR_X1)          4.49 r            0.97        -3.51
+Uclk/C_reg[83]/D (DFFRS_X1)         4.49 f            0.98        -3.51
+Uclk/C_reg[107]/D (DFFR_X1)         4.49 f            0.98        -3.51
+Uclk/C_reg[105]/D (DFFRS_X1)        4.48 r            0.98        -3.50
+
+1

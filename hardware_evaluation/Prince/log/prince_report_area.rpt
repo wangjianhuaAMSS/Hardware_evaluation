@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : prince
+Version: L-2016.03-SP1
+Date   : Fri Nov 22 10:33:08 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/xxxxxx/dctest/Prince-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                          259
+Number of nets:                          7789
+Number of cells:                         7498
+Number of combinational cells:           7241
+Number of sequential cells:               257
+Number of macros/black boxes:               0
+Number of buf/inv:                       1237
+Number of references:                      33
+
+Combinational area:               8617.335874
+Buf/Inv area:                      740.277999
+Noncombinational area:            1371.496045
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  9988.831918
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+prince                            9988.8319    100.0  8617.3359  1371.4960  0.0000  prince
+--------------------------------  ---------  -------  ---------  ---------  ------  ---------
+Total                                                 8617.3359  1371.4960  0.0000
+
+1

@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : Blink_64_128
+Version: L-2016.03-SP1
+Date   : Thu Nov 21 10:19:29 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/xxxxxx/dctest/Blink_64_128-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                          897
+Number of nets:                         30092
+Number of cells:                        28729
+Number of combinational cells:          27835
+Number of sequential cells:               894
+Number of macros/black boxes:               0
+Number of buf/inv:                       2298
+Number of references:                      36
+
+Combinational area:              33431.411620
+Buf/Inv area:                     1308.454005
+Noncombinational area:            4831.092163
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 38262.503783
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Blink_64_128                      38262.5038    100.0  33431.4116  4831.0922  0.0000  Blink_64_128
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  33431.4116  4831.0922  0.0000
+
+1

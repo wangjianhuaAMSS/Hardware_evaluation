@@ -1,0 +1,1 @@
+#In each folder named after a cipher, the `src` subfolder contains this cipher's Verilog implementation source code, while the `log` subfolder holds the test results. 

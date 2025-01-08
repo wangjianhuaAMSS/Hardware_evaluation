@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : Mantis
+Version: L-2016.03-SP1
+Date   : Thu Nov 21 11:17:06 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/xxxxxx/dctest/Mantis-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                          323
+Number of nets:                         10405
+Number of cells:                        10059
+Number of combinational cells:           9738
+Number of sequential cells:               321
+Number of macros/black boxes:               0
+Number of buf/inv:                       1558
+Number of references:                      33
+
+Combinational area:              11956.965797
+Buf/Inv area:                      905.730001
+Noncombinational area:            1728.468058
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 13685.433854
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Mantis                            13685.4339    100.0  11956.9658  1728.4681  0.0000  Mantis
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  11956.9658  1728.4681  0.0000
+
+1

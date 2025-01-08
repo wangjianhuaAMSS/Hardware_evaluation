@@ -1,0 +1,145 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+Design : prince
+Version: L-2016.03-SP1
+Date   : Fri Nov 22 10:33:08 2024
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+U_prince_clk/ciphertext_reg[52]/D (DFFR_X1)
+                                    2.63 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[56]/D (DFFR_X1)
+                                    2.63 f            0.98        -1.65
+U_prince_clk/ciphertext_reg[31]/D (DFFR_X1)
+                                    2.63 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[32]/D (DFFR_X2)
+                                    2.63 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[12]/D (DFFR_X2)
+                                    2.62 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[11]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[27]/D (DFFR_X2)
+                                    2.62 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[16]/D (DFFR_X1)
+                                    2.63 f            0.98        -1.65
+U_prince_clk/ciphertext_reg[8]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[59]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.65
+U_prince_clk/ciphertext_reg[15]/D (DFFR_X2)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[53]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[35]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[9]/D (DFFR_X1)
+                                    2.62 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[57]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[36]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.65
+U_prince_clk/ciphertext_reg[24]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[39]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[61]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[29]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.65
+U_prince_clk/ciphertext_reg[19]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[7]/D (DFFR_X1)
+                                    2.62 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[28]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[40]/D (DFFR_X2)
+                                    2.62 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[43]/D (DFFR_X1)
+                                    2.62 r            0.98        -1.65
+U_prince_clk/ciphertext_reg[48]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.65
+U_prince_clk/ciphertext_reg[13]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[62]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[4]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[10]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[37]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[63]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[26]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[0]/D (DFFR_X1)
+                                    2.62 r            0.98        -1.64
+U_prince_clk/ciphertext_reg[30]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[17]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[25]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[14]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[20]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[5]/D (DFFR_X1)
+                                    2.62 r            0.98        -1.64
+U_prince_clk/ciphertext_reg[55]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[33]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[34]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[60]/D (DFFR_X1)
+                                    2.62 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[6]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[23]/D (DFFR_X1)
+                                    2.62 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[58]/D (DFFR_X1)
+                                    2.61 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[51]/D (DFFR_X1)
+                                    2.61 r            0.98        -1.64
+U_prince_clk/ciphertext_reg[22]/D (DFFR_X2)
+                                    2.61 r            0.98        -1.64
+U_prince_clk/ciphertext_reg[1]/D (DFFR_X1)
+                                    2.61 r            0.98        -1.64
+U_prince_clk/ciphertext_reg[42]/D (DFFR_X1)
+                                    2.61 r            0.97        -1.64
+U_prince_clk/ciphertext_reg[44]/D (DFFR_X2)
+                                    2.61 r            0.98        -1.64
+U_prince_clk/ciphertext_reg[21]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.64
+U_prince_clk/ciphertext_reg[18]/D (DFFR_X1)
+                                    2.61 r            0.97        -1.63
+U_prince_clk/ciphertext_reg[49]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.63
+U_prince_clk/ciphertext_reg[46]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.63
+U_prince_clk/ciphertext_reg[38]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.63
+U_prince_clk/ciphertext_reg[54]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.63
+U_prince_clk/ciphertext_reg[41]/D (DFFR_X1)
+                                    2.61 r            0.98        -1.63
+U_prince_clk/ciphertext_reg[50]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.63
+U_prince_clk/ciphertext_reg[2]/D (DFFR_X1)
+                                    2.61 f            0.98        -1.63
+U_prince_clk/ciphertext_reg[47]/D (DFFR_X1)
+                                    2.60 r            0.98        -1.63
+U_prince_clk/ciphertext_reg[45]/D (DFFR_X1)
+                                    2.60 r            0.97        -1.63
+U_prince_clk/ciphertext_reg[3]/D (DFFR_X1)
+                                    2.60 r            0.98        -1.62
+
+1

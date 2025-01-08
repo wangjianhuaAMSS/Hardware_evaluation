@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : qarmav2_64
+Version: L-2016.03-SP1
+Date   : Thu Nov 21 17:27:19 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/xxxxxx/dctest/qarmav2_64_9-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                          387
+Number of nets:                         14468
+Number of cells:                        14009
+Number of combinational cells:          13623
+Number of sequential cells:               386
+Number of macros/black boxes:               0
+Number of buf/inv:                       2516
+Number of references:                      31
+
+Combinational area:              16951.647717
+Buf/Inv area:                     1520.721997
+Noncombinational area:            2049.264066
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 19000.911783
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+qarmav2_64                        19000.9118    100.0  16951.6477  2049.2641  0.0000  qarmav2_64
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  16951.6477  2049.2641  0.0000
+
+1

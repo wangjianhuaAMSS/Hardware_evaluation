@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : Blink_128_128
+Version: L-2016.03-SP1
+Date   : Fri Nov 22 00:12:37 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'Blink_128_128' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /mnt/hgfs/VMShared/Blink_128_128-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                         1921
+Number of nets:                         98601
+Number of cells:                        95797
+Number of combinational cells:          93879
+Number of sequential cells:              1918
+Number of macros/black boxes:               0
+Number of buf/inv:                       7851
+Number of references:                      43
+
+Combinational area:             112327.809244
+Buf/Inv area:                     4414.270022
+Noncombinational area:           10369.744349
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                122697.553593
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-   Black-
+                                  Total        Total    national     national    boxes   Design
+--------------------------------  -----------  -------  -----------  ----------  ------  ---------
+Blink_128_128                     122697.5536    100.0  112327.8092  10369.7443  0.0000  Blink_128_128
+--------------------------------  -----------  -------  -----------  ----------  ------  ---------
+Total                                                   112327.8092  10369.7443  0.0000
+
+1

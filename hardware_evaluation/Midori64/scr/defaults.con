@@ -1,0 +1,46 @@
+#Define system clock period
+set clk_period 1
+
+#Create real clock if clock port is found
+if {[sizeof_collection [get_ports clk]] > 0} {
+set clk_name clk
+create_clock -period $clk_period clk
+set_dont_touch_network clk
+}
+
+#Apply default drive strengths and typical loads
+#for I/O ports
+#set_driving_cell -lib_cell AND2_X1 -no_design_rule [all_inputs]
+#set_load 1.5 [all_outputs]
+
+#If real clock, set infinite drive strengths
+#if {[sizeof_collection [get_ports clk]] > 0} {
+#set_drive 0 clk
+#}
+
+#Apply default reset constraints for modules
+if {[sizeof_collection [get_ports rst]] > 0} {
+set_dont_touch_network rst
+#set_drive 0 [get_ports rst]
+set_false_path -from [get_ports rst]
+}
+
+#Apply default timing constraints for modules
+#if {[sizeof_collection [get_ports clk]] > 0} {
+#set_input_delay 1.2 [all_inputs] -clock $clk_name
+#remove_input_delay [get_ports clk]
+#set_output_delay 1.5 [all_outputs] -clock $clk_name
+#set_clock_uncertainty -setup 0.45 $clk_name
+#}
+
+#Set operating conditions
+#set_operating_conditions -max fast \
+#						 -max_library ${lib_path}NangateOpenCellLibrary_fast.db \
+#						 -min fast \
+#						 -min_library ${lib_path}NangateOpenCellLibrary_fast.db
+set_operating_conditions fast
+
+#Turn on auto wire load selection
+#(library must support this feature)
+set auto_wire_load_selection true
+set_wire_load_mode top

@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : Midori_64
+Version: L-2016.03-SP1
+Date   : Thu Nov 21 12:09:54 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/xxxxxx/dctest/Midori_64-CodeTestArea/lib/NangateOpenCellLibrary_fast.db)
+
+Number of ports:                          259
+Number of nets:                         14596
+Number of cells:                        14291
+Number of combinational cells:          14034
+Number of sequential cells:               257
+Number of macros/black boxes:               0
+Number of buf/inv:                       2654
+Number of references:                      44
+
+Combinational area:              16219.083829
+Buf/Inv area:                     1580.306000
+Noncombinational area:            1369.368044
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 17588.451873
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Midori_64                         17588.4519    100.0  16219.0838  1369.3680  0.0000  Midori_64
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  16219.0838  1369.3680  0.0000
+
+1
